@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context=".DashboardMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:background="@drawable/header_bg"
+        android:padding="12dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sınav Ayarları"
+            android:textColor="#fafafa"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:weightSum="2"
+        android:background="@color/colorGray">
+
+        <TextView
+            android:id="@+id/textSinavSuresi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sınav Süresi"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerSinavSuresi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textSoruPuani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soru Puanı"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerSoruPuani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textSinavZorlukDuzeyi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sınav Zorluk Düzeyi"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerSinavZorlukDuzeyi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonSinavAyarKaydet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kaydet" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
