@@ -29,6 +29,7 @@ public class SoruListeleme extends AppCompatActivity {
         rvQuestions.setLayoutManager(layoutManager);
         questionAdapter =new QuestionAdapter(this,questionsList,rvQuestions);
         rvQuestions.setAdapter(questionAdapter);
+        //commit denemesi
 
     }
 
