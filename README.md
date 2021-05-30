@@ -2,6 +2,7 @@
 Konu
 Activity, Intent, RecyclerView, SharedPreferences, Internal Storage
 İçerik :
+
     1. Kullanıcı Giriş Ekranı
     
 a. Şifre Kontrol, Hata Mesajı, Başarılı Giriş Mesajı
@@ -19,7 +20,7 @@ a. Sisteme başarılı giriş yapıldıktan sonra Soru Ekle, Soru Listele, Sına
 
   4. Soru Ekleme Ekranı
 
-a. Bu ekranda ilgili soru, 4 adet şık, doğru cevap, soru zorluk seviyesi(1 5) okunmalı, dahili belleğe dosya olarak veya veritabanına kaydedilmeli
+a. Bu ekranda ilgili soru, 4 adet şık, doğru cevap, soru zorluk seviyesi(1 ile arasında 5) okunmalı, dahili belleğe dosya olarak veya veritabanına kaydedilmeli
 
   5. Soru Listeleme Ekranı
   
@@ -35,7 +36,7 @@ a. Bu ekranda varsayılan ayarlar belirlenmeli. Sınav süresi, Soru Puanı , S�
 
   7. Sınav Oluşturma Ekranı
   
-a. Ayarlar Ekranında belirlenen parametreler (Zorluk Seviyesi değiştirilebilmeli
+a. Ayarlar Ekranında belirlenen parametreler (Zorluk Seviyesi değiştirilebilmeli)
 b. Bu ekranda sadece ayarlar bölümünde zorluk düzeyi belirtilen sorular arasından seçim yapılabilmeli.
-c. Oluşturulan Sınav metin (txt) formatında k aydedilebilmeli
-d. Kayded ilen metin formatındaki dosy a mail üzerinden paylaşılabilmeli
+c. Oluşturulan Sınav metin (txt) formatında kaydedilebilmeli
+d. Kaydedilen metin formatındaki dosya mail üzerinden paylaşılabilmeli
