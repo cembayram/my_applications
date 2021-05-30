@@ -109,7 +109,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         super(context, DATABASE_NAME, null, 1);
     }
 
-
     @Override
     public void onCreate(SQLiteDatabase db) {
 
@@ -152,11 +151,15 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         contentValues.put("email", email);
         contentValues.put("tel", tel);
 
-        Log.d("sql app", "adding data "+ username +" to "+DATABASE_NAME);
+       // Log.d("sql app", "adding data "+ username +" to "+DATABASE_NAME);
 
         //long result = sqLiteDatabase.insert("user", null, contentValues);
         long result = sqLiteDatabase.insert("users", null, contentValues);
-        return result != -1;
+        if(result == -1)
+            return false;
+        else
+            return true;
+        //return result != -1;
     }
 
 
@@ -172,8 +175,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         cv.put("choiceD",choiceD);
         cv.put("difficulty",difficulty);
 
-
-        // Log.d("sql app", "adding data "+quizModel.toString()+" to "+DATABASE_NAME);
         long result = sqLiteDatabase.insert("questions", null, cv);
         return result != -1;
     }

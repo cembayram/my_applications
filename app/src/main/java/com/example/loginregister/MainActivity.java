@@ -29,11 +29,9 @@ public class MainActivity extends AppCompatActivity {
         et_surname = (EditText)findViewById(R.id.inputSurname);
         et_tel = (EditText)findViewById(R.id.inputTel);
         et_email = (EditText)findViewById(R.id.inputEmail);
-        
         et_username = (EditText)findViewById(R.id.inputUsername);
         et_password = (EditText)findViewById(R.id.inputPassword);
         et_cpassword = (EditText)findViewById(R.id.inputConformPassword);
-
         btn_register = (Button)findViewById(R.id.btnRegister);
         btn_login = (Button)findViewById(R.id.btn_login);
 
@@ -62,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     if(password.equals(confirm_password)){
                         Boolean checkusername = databaseHelper.CheckUsername(username);
-                        if(checkusername == true){
+                        if(checkusername == false){
                             Boolean insert = databaseHelper.Insert(username,password,name,surname,tel,email);
                             if(insert == true){
                                 Toast.makeText(getApplicationContext(), "Kayıt yapıldı", Toast.LENGTH_SHORT).show();
