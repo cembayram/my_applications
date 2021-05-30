@@ -18,11 +18,11 @@ c. Şifrelerin eşleşmemesi durumunda hata mesajı verilmeli
     
 a. Sisteme başarılı giriş yapıldıktan sonra Soru Ekle, Soru Listele, Sınav Oluştur, Sınav Ayarları vb. faaliyetler için menü ekranına geçiş yapılmalı
 
-  4. Soru Ekleme Ekranı
+    4. Soru Ekleme Ekranı
 
 a. Bu ekranda ilgili soru, 4 adet şık, doğru cevap, soru zorluk seviyesi(1 ile arasında 5) okunmalı, dahili belleğe dosya olarak veya veritabanına kaydedilmeli
 
-  5. Soru Listeleme Ekranı
+    5. Soru Listeleme Ekranı
   
 a. Sistemde kullanıcının eklediği tüm sorular bu ekranda liste olarak gösterilmeli
 b. Her soru maddesinde, sorunun kendisi, şıkları, doğru ceva bı olmalı
@@ -30,11 +30,12 @@ c. Bu ekranda sorulara tıklanarak silme ve güncelleme yapılabilmeli
 d. Silme sırasında Diyalog kutusu yardımı ile son bir kez daha kullanıcı onayı alın malı
 e. Günce lleme için yeni bir ekrana geçiş yapılmalı ve bu ekran tasarlanmalı.
 
-  6. Sınav Ayar Ekranı
+    6. Sınav Ayar Ekranı
   
-a. Bu ekranda varsayılan ayarlar belirlenmeli. Sınav süresi, Soru Puanı , Sınav Zorluk Düzeyi . Bu bilgiler SharedPreferences yapısında saklanmalı
+a. Bu ekranda varsayılan ayarlar belirlenmeli. Sınav süresi, Soru Puanı , Sınav Zorluk Düzeyi. 
+    Bu bilgiler SharedPreferences yapısında saklanmalı
 
-  7. Sınav Oluşturma Ekranı
+    7. Sınav Oluşturma Ekranı
   
 a. Ayarlar Ekranında belirlenen parametreler (Zorluk Seviyesi değiştirilebilmeli)
 b. Bu ekranda sadece ayarlar bölümünde zorluk düzeyi belirtilen sorular arasından seçim yapılabilmeli.
